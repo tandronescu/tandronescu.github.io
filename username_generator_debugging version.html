@@ -86,21 +86,36 @@ function myFunction() {
   // define form1
   var form1 = document.getElementById("form1");
 
+  // store the sport select field as a variable
+  var sportSelector = document.getElementById("sport");
+
+  // get the selected value from the sport select field
+  var sport = sportSelector.options[sportSelector.selectedIndex].value;
+
+  var animalSelector = document.getElementById("animal");
+  var animal = animalSelector.options[animalSelector.selectedIndex].value;
+
+  var name = form1.name.value;
+  var number = form1.number.value;
+  var colour = form1.colour.value;
+
+  console.log("Value of Inputs: " + name, sport, number, colour, animal);
+  console.log(form1.getElementsByTagName("select").length);
   // variable to hold number of input fields, input tags + select tags, minus 1 to account for button
   var numInputFieldsTotal = form1.getElementsByTagName("input").length - 1;
 
   var inputFields = document.getElementsByTagName("input");
   
-  // same variable as above, but only counts inputs that have been filled out
+  // same variable as above, but only counts inputs that have been filled out in for loop and does not count button value of Submit
   var numActiveInputFields = 0;
   
-  /* loop through input fields, add to numInputFieldsTotal variable
-  if field is not empty and exclude the value of the submit button */
   for (var j=0; j < numInputFieldsTotal; j++) {
     if (inputFields[j].value != "" && inputFields[j].value != "Submit") {
       numActiveInputFields += 1;
     }
   }
+
+  console.log("Active input fields: " + numActiveInputFields);
 
   // same process for select fields
 
@@ -115,9 +130,13 @@ function myFunction() {
       numActiveSelectFields += 1;
     }
   }
+
+  console.log("Active Select Fields: " + numActiveSelectFields);
  
   // sum of total active input and select fields, minus 1 to account for button
   var sumActiveFields = numActiveInputFields + numActiveSelectFields;
+
+  console.log("Sum of Active Fields: " + sumActiveFields);
   
   // store all inputs into an array
   var arrayInputs = [];
@@ -127,18 +146,14 @@ function myFunction() {
     if (inputFields[i].value != "" && inputFields[i].value != "Submit" && !arrayInputs.includes(inputFields[i].value)) {
       arrayInputs[i] = inputFields[i].value;
     }
-    // otherwise assign the index a placeholder number equal to the index
     else {
       arrayInputs[i] = i;
     }
   }
  
+  console.log("Array of Input Values: " + arrayInputs);
   var tempInputArrayLength = arrayInputs.length;
-  /* remove placeholders numbers from before. Two variables are used
-  in this foor loop. The splicing method removes the index and pushes
-  the other indices in front of it down 1 spot. Thus this must be 
-  accounted for by decrementing the variable b each time the splicing
-  occurs */
+  // remove placeholders
   var a = 0
   var b = a;
   for(a; a < tempInputArrayLength; a++) {
@@ -149,18 +164,31 @@ function myFunction() {
     }
     b += 1;
   }
+
+  // if array of inputs is completely empty add a -
+  if((arrayInputs.length < 3) && (arrayInputs[0] == "")) {
+    console.log("empty array");
+    arrayInputs[0] = "_";
+  }
+
+  console.log("Array of Input Values: " + arrayInputs);
+  console.log("Length of array: " + arrayInputs.length);
   
   // store all select inputs into an array
   var arraySelectInputs = [];
   for (var k=0; k < 2; k++) {
-    // make sure select field is filled in
     if (selectFields[k].value != "") {
       arraySelectInputs[k] = selectFields[k].value;
     }
   }
+  
+  console.log("Array of Select Input Values: " + arraySelectInputs);
+  console.log("Length of array: " + arraySelectInputs.length);
 
   // combine the two arrays of regular inputs and select inputs
   arrayAllInputs = arrayInputs.concat(arraySelectInputs);
+  console.log("Array of all inputs " + arrayAllInputs);
+  console.log("Length of array: " + arrayAllInputs.length);
 
   // variable to hold arrays of multiple usernames
   var usernames = [];
@@ -182,12 +210,14 @@ function myFunction() {
       }
     }
   }
+  console.log(usernames[0], usernames[1]);
   
   var usernameStrings = [];
   // join inside arrays into strings, w < "x" x should be the same as the q < "X" from the above for loop
   for ( var w=0; w < 9; w ++) {
     usernameStrings[w] = usernames[w].join("");
   }
+  console.log(usernameStrings);
 
   // open larger username box for users to view
   document.getElementById("username_box").style.display = "block";
