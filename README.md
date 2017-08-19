@@ -1,2 +1,2 @@
-# burlybazinga.github.io
+# tandronescu.github.io
 Personal Website
