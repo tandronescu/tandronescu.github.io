@@ -18,7 +18,7 @@ body {
   font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
   font-size: 40px;
   text-decoration: underline;
-  color: #da90ed;
+  color: white;
 }
 
 .projects-container {
@@ -26,7 +26,7 @@ body {
   float: left;
   margin-left: 50px;
   padding: 0px 15px;
-  background: rgba(237, 144, 163, 0.75);
+  background: #42c5f4;
 }
 
 .projects {
