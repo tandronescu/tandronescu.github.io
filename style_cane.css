@@ -1,5 +1,4 @@
-body
-{
+body {
   background: url("https://ak5.picdn.net/shutterstock/videos/3002269/thumb/3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,8 +6,7 @@ body
   color: white;
 }
 
-#main
-{
+#main {
   width: 50%;
   margin: 25px auto;
   background-color: #0d5b46;
@@ -17,8 +15,7 @@ body
   font-size: 14px;
 }
 
-#videos
-{
+#videos {
   width: 90%;
   margin: 5px auto;
   background-color: #d3eae4;
