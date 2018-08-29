@@ -4,8 +4,8 @@ permalink: /projects/
 title: "Projects"
 author_profile: true
 header:
-  image: ""
- ---
+  image: "images/front.png"
+---
 
  {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
