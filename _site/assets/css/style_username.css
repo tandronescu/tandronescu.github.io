@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+}
+
+#instructions_container {
+  color: white;
+  font-size: 24px;
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  width: 90%;
+  margin: 25px auto;
+  background-color: #ff4d4d;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.input_box {
+  border: 2px solid red;
+  border-radius: 3px;
+  display: block;
+  float: right;
+  margin-left: 5px;
+}
+
+.button {
+  margin: 5px;
+  border: 2px solid red;
+  padding: 8px;
+  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+  font-size: 20px;
+}
+
+.button:hover {
+  margin: 5px;
+  border: 3px solid black;
+  padding: 10px;
+  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+  font-size: 20px;
+}
+
+#form_container {
+  margin: auto;
+  width: 90%;
+  background: #ff8080;
+  padding: 15px;
+  border: 2px dashed #990000;
+}
+
+#form_table {
+  margin: auto;
+}
+
+td {
+  text-align: left;
+}
+
+#username_box {
+  width: 90%;
+  border: 5px solid black;
+  background: #d9d9d9;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+#username_display {
+  margin: 5px auto;
+  color: black;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 24px;
+  font-style: bold;
+}

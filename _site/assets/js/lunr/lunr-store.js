@@ -1,1 +1,26 @@
-var store = []
+var store = [{
+        "title": "Survival Arcade Game",
+        "excerpt":"This project features a multi-level arcade game using Java on the Greenfoot platform. The use of gamestates allows for tracking of lives, asteroid/naval mine kills and shield usage. An intricate menu system was incorporated letting the user(s) pick between 1 and 2 player, navigate through instructions and see their score...","categories": [],
+        "tags": ["software","java","game","oop"],
+        "url": "http://localhost:4000/Survival-Game/",
+        "teaser":null},{
+        "title": "Arduino Projects",
+        "excerpt":"There are several mini-projects listed below, the source code and additional information can be found by following their links to the online Arduino IDE Arduino - LED Brightness controlled by Button LED brightness controlled by a button system, one to brighten and one to dim. Arduino - RGB LED An...","categories": [],
+        "tags": ["software","electrical","c++","circuits"],
+        "url": "http://localhost:4000/Arduino-Projects/",
+        "teaser":null},{
+        "title": "Username Generator",
+        "excerpt":"To use the generator, complete any of the fields that contain information you wish to include in your potential username. When you are ready, press the submit button and up to 9 usernames will be generated for you. Enjoy! Name: Lucky Number: Favourite Colour: Profession: Adjective: Favourite Video Game: Favourite...","categories": [],
+        "tags": ["software","html","css","javascript"],
+        "url": "http://localhost:4000/Username-Generator/",
+        "teaser":null},{
+        "title": "Robot Arm",
+        "excerpt":"In the Mechatronics program at Waterloo, it is an annual tradition to host a \"Tron Days\" event for first year students where teams of 4 are put together and given a task to complete within roughly a span of 36 hours. In this iteration, our task was to contruct a...","categories": [],
+        "tags": ["software","electrical","mechanical","team","servo","motor","AutoCad"],
+        "url": "http://localhost:4000/Robot-Arm/",
+        "teaser":null},{
+        "title": "Virtual White Cane",
+        "excerpt":"This device serves as a replacement to the traditional white cane visually impaired people use to navigate around various obstacles in day to day life. The contraption attaches to the user's chest and operates autonomously, freeing up both hands of the user which is advantageous to the traditional white cane....","categories": [],
+        "tags": ["software","electrical","mechanical","team","motor","c++","sensor"],
+        "url": "http://localhost:4000/Virtual-Cane/",
+        "teaser":null}]

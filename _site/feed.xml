@@ -1,1 +1,305 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-30T15:04:39-04:00</updated><id>http://localhost:4000/</id><title type="html">Tibi Andronescu</title><subtitle>Personal Website</subtitle><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-30T23:18:19-04:00</updated><id>http://localhost:4000/</id><title type="html">Tibi Andronescu</title><subtitle>Personal Website</subtitle><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><entry><title type="html">Virtual White Cane</title><link href="http://localhost:4000/Virtual-Cane/" rel="alternate" type="text/html" title="Virtual White Cane" /><published>2017-12-02T00:00:00-05:00</published><updated>2017-12-02T00:00:00-05:00</updated><id>http://localhost:4000/Virtual-Cane</id><content type="html" xml:base="http://localhost:4000/Virtual-Cane/">&lt;html&gt;
+&lt;head&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/style_cane.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;main_style&quot;&gt;
+    &lt;p&gt; This device serves as a replacement to the traditional white cane visually impaired people
+ 	use to navigate around various obstacles in day to day life. The contraption attaches to the
+	user's chest and operates autonomously, freeing up both hands of the user which is 
+	advantageous to the traditional white cane. 
+    &lt;/p&gt;
+  &lt;h3&gt; Below are pictures showing the device mounted on a person &lt;/h3&gt;
+  &lt;table border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt; &lt;img src=&quot;/images/front.png&quot; width=&quot;90%&quot; alt=&quot;Front View&quot; /&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;img src=&quot;/images/side.png&quot; width=&quot;90%&quot; alt=&quot;Side View&quot; /&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt; Front View &lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt; Side View &lt;/p&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;p&gt; The virtual white cane operates by sweeping the area in front of the 
+      user using 2 ultrasonic sensors
+      and alerting them of incoming obstacles or changes in elevation with a sound notification. As the user
+      gets closer to an obstacle, the frequency of beeps increases. The downward facing ultrasonic sensor
+      detects changes in elevation. A gyroscope sensor attached to a hardhat worn on the user's head allows
+      the system to rotate in unison with the user's head. This allows for checking in different directions
+      for obstacles which is useful for turning or in busy areas. 
+  &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;videos&quot;&gt;
+  &lt;h3&gt; Below are videos demonstrating the device in use &lt;/h3&gt;
+  &lt;table align=&quot;center&quot; border=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt; &lt;iframe src=&quot;https://drive.google.com/file/d/1_-9pEfj7x7gs6Rve5QSmp0HyGs6dFgJA/preview&quot; width=&quot;500&quot; height=&quot;375&quot;&gt;&lt;/iframe&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt; &lt;iframe src=&quot;https://drive.google.com/file/d/14iVf51J6JEvZC5jMUgVkhQTismkL8uRx/preview&quot; width=&quot;500&quot; height=&quot;375&quot;&gt;&lt;/iframe&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="electrical" /><category term="mechanical" /><category term="team" /><category term="motor" /><category term="c++" /><category term="sensor" /><summary type="html">This device serves as a replacement to the traditional white cane visually impaired people use to navigate around various obstacles in day to day life. The contraption attaches to the user's chest and operates autonomously, freeing up both hands of the user which is advantageous to the traditional white cane. Below are pictures showing the device mounted on a person Front View Side View The virtual white cane operates by sweeping the area in front of the user using 2 ultrasonic sensors and alerting them of incoming obstacles or changes in elevation with a sound notification. As the user gets closer to an obstacle, the frequency of beeps increases. The downward facing ultrasonic sensor detects changes in elevation. A gyroscope sensor attached to a hardhat worn on the user's head allows the system to rotate in unison with the user's head. This allows for checking in different directions for obstacles which is useful for turning or in busy areas. Below are videos demonstrating the device in use</summary></entry><entry><title type="html">Robot Arm</title><link href="http://localhost:4000/Robot-Arm/" rel="alternate" type="text/html" title="Robot Arm" /><published>2017-10-07T00:00:00-04:00</published><updated>2017-10-07T00:00:00-04:00</updated><id>http://localhost:4000/Robot-Arm</id><content type="html" xml:base="http://localhost:4000/Robot-Arm/">&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/robot_arm_style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;main_style&quot;&gt;
+    &lt;p&gt; In the Mechatronics program at Waterloo, it is an annual tradition to host a &quot;Tron Days&quot; event for first year students
+    where teams of 4 are put together and given a task to complete within roughly a span of 36 hours. In this iteration, our task
+    was to contruct a robot arm which could pick up bones and place them in various orienatations and positions on a wooden board
+    represenating a mock patient. Below, our robot arm is shown. &lt;/p&gt;
+    &lt;img src=&quot;/images/arm.jpg&quot; alt=&quot;robot-arm&quot; width=&quot;90%&quot; class=&quot;center-custom&quot; /&gt;
+    &lt;br /&gt;
+    &lt;p&gt; The mechanical pieces of the arm come from a Tetrix Robot Kit given to each group. After careful planning and modelling in AutoCad,
+    we constructed our device using several gear systems to give the arm the ability to move freely both horizontally and vertically. A 
+    base was added to reinforce the structure and a servos was added to control the gears. Using a transmitter and receiver, I was able to
+    control the movement of the arm and partake in a competition measuring the accuracy, speed and durability of our design. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="electrical" /><category term="mechanical" /><category term="team" /><category term="servo" /><category term="motor" /><category term="AutoCad" /><summary type="html">In the Mechatronics program at Waterloo, it is an annual tradition to host a &quot;Tron Days&quot; event for first year students where teams of 4 are put together and given a task to complete within roughly a span of 36 hours. In this iteration, our task was to contruct a robot arm which could pick up bones and place them in various orienatations and positions on a wooden board represenating a mock patient. Below, our robot arm is shown. The mechanical pieces of the arm come from a Tetrix Robot Kit given to each group. After careful planning and modelling in AutoCad, we constructed our device using several gear systems to give the arm the ability to move freely both horizontally and vertically. A base was added to reinforce the structure and a servos was added to control the gears. Using a transmitter and receiver, I was able to control the movement of the arm and partake in a competition measuring the accuracy, speed and durability of our design.</summary></entry><entry><title type="html">Username Generator</title><link href="http://localhost:4000/Username-Generator/" rel="alternate" type="text/html" title="Username Generator" /><published>2017-07-21T00:00:00-04:00</published><updated>2017-07-21T00:00:00-04:00</updated><id>http://localhost:4000/Username%20Generator</id><content type="html" xml:base="http://localhost:4000/Username-Generator/">&lt;html&gt;
+&lt;head&gt;
+  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/style_username.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;instructions_container&quot;&gt;
+    &lt;p&gt; To use the generator, complete any of the fields that contain information you wish to include in your potential username. 
+        When you are ready, press the submit button and up to 9 usernames will be generated for you. Enjoy! &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;form_container&quot;&gt;
+  &lt;form id=&quot;form1&quot; action=&quot;&quot; method=&quot;get&quot;&gt;
+    &lt;table id=&quot;form_table&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          Name:         &lt;input class=&quot;input_box&quot; type=&quot;text&quot; name=&quot;name&quot; /&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+          Lucky Number: &lt;input class=&quot;input_box&quot; type=&quot;number&quot; name=&quot;number&quot; /&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          Favourite Colour: &lt;input class=&quot;input_box&quot; type=&quot;text&quot; name=&quot;colour&quot; /&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+          Profession: &lt;input class=&quot;input_box&quot; type=&quot;text&quot; name=&quot;profession&quot; /&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          Adjective: &lt;input class=&quot;input_box&quot; type=&quot;text&quot; name=&quot;adjective&quot; /&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+          Favourite Video Game: &lt;input class=&quot;input_box&quot; type=&quot;text&quot; name=&quot;video_game&quot; /&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          Favourite Sport: &lt;select class=&quot;input_box&quot; id=&quot;sport&quot;&gt;
+                             &lt;option value=&quot;&quot;&gt; -- &lt;/option&gt;
+                             &lt;option value=&quot;soccer&quot;&gt; Soccer &lt;/option&gt;
+	       	             &lt;option value=&quot;ball&quot;&gt; Basketball &lt;/option&gt;
+                             &lt;option value=&quot;football&quot;&gt; Football &lt;/option&gt;
+                             &lt;option value=&quot;hockey&quot;&gt; Hockey &lt;/option&gt;
+                             &lt;option value=&quot;golf&quot;&gt; Golf &lt;/option&gt;
+                             &lt;option value=&quot;swimming&quot;&gt; Swimming &lt;/option&gt;
+                             &lt;option value=&quot;baseball&quot;&gt; Baseball &lt;/option&gt;
+                             &lt;option value=&quot;tennis&quot;&gt; Tennis &lt;/option&gt;
+                           &lt;/select&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+          Favourite Animal: &lt;select class=&quot;input_box&quot; id=&quot;animal&quot;&gt;
+                             &lt;option value=&quot;&quot;&gt; -- &lt;/option&gt;
+                             &lt;option value=&quot;dog&quot;&gt; Dog &lt;/option&gt;
+                             &lt;option value=&quot;cat&quot;&gt; Cat &lt;/option&gt;
+                             &lt;option value=&quot;hamster&quot;&gt; Hamster &lt;/option&gt;
+                             &lt;option value=&quot;bird&quot;&gt; Bird &lt;/option&gt;
+                             &lt;option value=&quot;lizard&quot;&gt; Lizard &lt;/option&gt;
+                             &lt;option value=&quot;snake&quot;&gt; Snake &lt;/option&gt;
+                             &lt;option value=&quot;fish&quot;&gt; Fish &lt;/option&gt;
+                             &lt;option value=&quot;bunny&quot;&gt; Bunny &lt;/option&gt;
+                           &lt;/select&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;input type=&quot;button&quot; class=&quot;button&quot; onclick=&quot;myFunction()&quot; value=&quot;Submit&quot; /&gt;
+  &lt;/form&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;username_box&quot; style=&quot;display: none;&quot;&gt;
+    &lt;!-- div that will display generated usernames upon button click --&gt;
+    &lt;div id=&quot;username_display&quot; style=&quot;display: none;&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;script&gt;
+function myFunction() {
+
+  // define form1
+  var form1 = document.getElementById(&quot;form1&quot;);
+
+  // variable to hold number of input fields, input tags + select tags, minus 1 to account for button
+  var numInputFieldsTotal = form1.getElementsByTagName(&quot;input&quot;).length - 1;
+
+  var inputFields = document.getElementsByTagName(&quot;input&quot;);
+  
+  // same variable as above, but only counts inputs that have been filled out
+  var numActiveInputFields = 0;
+  
+  /* loop through input fields, add to numInputFieldsTotal variable
+  if field is not empty and exclude the value of the submit button */
+  for (var j=0; j &lt; numInputFieldsTotal; j++) {
+    if (inputFields[j].value != &quot;&quot; &amp;&amp; inputFields[j].value != &quot;Submit&quot;) {
+      numActiveInputFields += 1;
+    }
+  }
+
+  // same process for select fields
+
+  // all select fields
+  var selectFields = form1.getElementsByTagName(&quot;select&quot;);
+
+  // same variable as above to store active select fields, only counts filled out select inputs in for loop
+  var numActiveSelectFields = 0; 
+
+  for (var h=0; h &lt; selectFields.length; h ++) {
+    if (selectFields[h].value != &quot;&quot;) {
+      numActiveSelectFields += 1;
+    }
+  }
+ 
+  // sum of total active input and select fields, minus 1 to account for button
+  var sumActiveFields = numActiveInputFields + numActiveSelectFields;
+  
+  // store all inputs into an array
+  var arrayInputs = [];
+  for (var i=0; i &lt; (numInputFieldsTotal); i++) {
+    /* assign each input to a variable if input not empty and 
+    not submit (to avoid button value) and not the same as other values */
+    if (inputFields[i].value != &quot;&quot; &amp;&amp; inputFields[i].value != &quot;Submit&quot; &amp;&amp; !arrayInputs.includes(inputFields[i].value)) {
+      arrayInputs[i] = inputFields[i].value;
+    }
+    // otherwise assign the index a placeholder number equal to the index
+    else {
+      arrayInputs[i] = i;
+    }
+  }
+ 
+  var tempInputArrayLength = arrayInputs.length;
+  /* remove placeholders numbers from before. Two variables are used
+  in this foor loop. The splicing method removes the index and pushes
+  the other indices in front of it down 1 spot. Thus this must be 
+  accounted for by decrementing the variable b each time the splicing
+  occurs */
+  var a = 0
+  var b = a;
+  for(a; a &lt; tempInputArrayLength; a++) {
+    if(arrayInputs[b] == a) {
+      console.log(&quot;Splice&quot; + &quot; a: &quot; + a + &quot; b: &quot; + b);
+      arrayInputs.splice(b, 1);
+      b -= 1;
+    }
+    b += 1;
+  }
+  
+  // store all select inputs into an array
+  var arraySelectInputs = [];
+  for (var k=0; k &lt; 2; k++) {
+    // make sure select field is filled in
+    if (selectFields[k].value != &quot;&quot;) {
+      arraySelectInputs[k] = selectFields[k].value;
+    }
+  }
+
+  // combine the two arrays of regular inputs and select inputs
+  arrayAllInputs = arrayInputs.concat(arraySelectInputs);
+
+  // variable to hold arrays of multiple usernames
+  var usernames = [];
+  
+  // loop that combines all the inputs in a random order, number of times dictated by &quot;q &lt; x&quot; where x represents the number of times
+  for ( var q=0; q &lt; 9; q++) {
+    // initialize an array inside the username array
+    usernames[q] = [];
+    
+    // keep adding to the inside array until all the inputs have been inserted
+    while (usernames[q].length &lt; arrayAllInputs.length) {
+      
+      // generate a random number to pick a random input
+      var random = Math.floor(Math.random() * arrayAllInputs.length);
+      
+      // if the input is not already in the inside array, add it 
+      if (!usernames[q].includes(arrayAllInputs[random])) {
+        usernames[q].push(arrayAllInputs[random]);
+      }
+    }
+  }
+  
+  var usernameStrings = [];
+  // join inside arrays into strings, w &lt; &quot;x&quot; x should be the same as the q &lt; &quot;X&quot; from the above for loop
+  for ( var w=0; w &lt; 9; w ++) {
+    usernameStrings[w] = usernames[w].join(&quot;&quot;);
+  }
+
+  // open larger username box for users to view
+  document.getElementById(&quot;username_box&quot;).style.display = &quot;block&quot;;
+  
+  // open username display box for users to view
+  document.getElementById(&quot;username_display&quot;).style.display = &quot;block&quot;;
+  
+  // clear previous content from username_display
+  document.querySelector('#username_display').innerHTML = &quot;&quot;;
+
+  // display usernames individually
+  for( var n=0; n &lt; 9; n++) {
+    // print a new line after every 3 usernames
+    if( (n % 3 == 0) &amp;&amp; (n !=0) ) {
+      document.querySelector('#username_display').innerHTML += (&quot;&lt;br&gt;&quot;);
+    }
+    // check if username combo already exists
+    if (document.querySelector('#username_display').innerHTML.indexOf(usernameStrings[n]) != -1) {
+      document.querySelector('#username_display').innerHTML += &quot;  &quot;;
+    }
+    else {
+      document.querySelector('#username_display').innerHTML += &quot;  &quot; + usernameStrings[n];
+    }
+  }
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="html" /><category term="css" /><category term="javascript" /><summary type="html">To use the generator, complete any of the fields that contain information you wish to include in your potential username. When you are ready, press the submit button and up to 9 usernames will be generated for you. Enjoy! Name: Lucky Number: Favourite Colour: Profession: Adjective: Favourite Video Game: Favourite Sport: -- Soccer Basketball Football Hockey Golf Swimming Baseball Tennis Favourite Animal: -- Dog Cat Hamster Bird Lizard Snake Fish Bunny</summary></entry><entry><title type="html">Arduino Projects</title><link href="http://localhost:4000/Arduino-Projects/" rel="alternate" type="text/html" title="Arduino Projects" /><published>2017-07-12T00:00:00-04:00</published><updated>2017-07-12T00:00:00-04:00</updated><id>http://localhost:4000/Arduino%20Projects</id><content type="html" xml:base="http://localhost:4000/Arduino-Projects/">&lt;h2 id=&quot;there-are-several-mini-projects-listed-below-the-source-code-and-additional-information-can-be-found-by-following-their-links-to-the-online-arduino-ide&quot;&gt;There are several mini-projects listed below, the source code and additional information can be found by following their links to the online Arduino IDE&lt;/h2&gt;
+
+&lt;h3 id=&quot;arduino---led-brightness-controlled-by-button&quot;&gt;&lt;a href=&quot;https://create.arduino.cc/editor/TibSupreme/3dccd81d-d4ab-4f97-a68f-8f3fdbc88d03/preview&quot;&gt;Arduino - LED Brightness controlled by Button&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;LED brightness controlled by a button system, one to brighten and one to dim.&lt;/p&gt;
+
+&lt;h3 id=&quot;arduino---rgb-led&quot;&gt;&lt;a href=&quot;https://create.arduino.cc/editor/TibSupreme/892a6181-7690-4980-84d1-3e697c827bee/preview&quot;&gt;Arduino - RGB LED&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;An RGB LED which randomly changes colours and fades out each individual colour.&lt;/p&gt;
+
+&lt;h3 id=&quot;arduino---traffic-and-pedestrian-lights&quot;&gt;&lt;a href=&quot;https://create.arduino.cc/editor/TibSupreme/76d7f384-c75e-4f57-b561-04cca260d48a/preview&quot;&gt;Arduino - Traffic and Pedestrian Lights&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A set of traffic and pedestrian lights controlled by a button. They work in unison with each other to ensure appropriate timing.&lt;/p&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="electrical" /><category term="c++" /><category term="circuits" /><summary type="html">There are several mini-projects listed below, the source code and additional information can be found by following their links to the online Arduino IDE</summary></entry><entry><title type="html">Survival Arcade Game</title><link href="http://localhost:4000/Survival-Game/" rel="alternate" type="text/html" title="Survival Arcade Game" /><published>2017-06-15T00:00:00-04:00</published><updated>2017-06-15T00:00:00-04:00</updated><id>http://localhost:4000/Survival-Game</id><content type="html" xml:base="http://localhost:4000/Survival-Game/">&lt;p&gt;This project features a multi-level arcade game using Java on the Greenfoot platform. The use of gamestates allows for tracking of lives, asteroid/naval mine kills and shield usage. An intricate menu system was incorporated letting the user(s) pick between 1 and 2 player, navigate through instructions and see their score at the end of the game.&lt;/p&gt;
+
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Greenfoot project: SurvivalGame&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;SurvivalGame&lt;/h1&gt;
+        &lt;hr /&gt;
+        &lt;center&gt;
+        &amp;lt;applet code=&quot;greenfoot.export.GreenfootScenarioViewer.class&quot; 
+            width=1516 
+            height=919
+            archive=&quot;SurvivalGame.jar&quot;
+            alt=&quot;Your browser understands the &amp;lt;APPLET&amp;gt; tag but isn't running the applet, for some reason.&quot;
+         &amp;gt;
+            Your browser is ignoring the &amp;lt;APPLET&amp;gt; tag!      
+        &amp;lt;/applet&amp;gt;
+        &lt;hr /&gt;  
+        &lt;/center&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="java" /><category term="game" /><category term="oop" /><summary type="html">This project features a multi-level arcade game using Java on the Greenfoot platform. The use of gamestates allows for tracking of lives, asteroid/naval mine kills and shield usage. An intricate menu system was incorporated letting the user(s) pick between 1 and 2 player, navigate through instructions and see their score at the end of the game.</summary></entry></feed>
