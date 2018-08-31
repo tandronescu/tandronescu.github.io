@@ -23,4 +23,9 @@ var store = [{
         "excerpt":"This device serves as a replacement to the traditional white cane visually impaired people use to navigate around various obstacles in day to day life. The contraption attaches to the user's chest and operates autonomously, freeing up both hands of the user which is advantageous to the traditional white cane....","categories": [],
         "tags": ["software","electrical","mechanical","team","motor","c++","sensor"],
         "url": "http://localhost:4000/Virtual-Cane/",
+        "teaser":null},{
+        "title": "Electric Longboard",
+        "excerpt":"After many hours of research, ordering parts, assembly and troubleshooting my electric longboard completed its first few trial runs as shown in the videos below. Key Points for Summary Top Speed: ~30km/h and Range: ~50km 6S2P Lithium Polymer Battery Configuration (~22.2V and 10Ah capacity) 190KV Brushless Outrunner Motor, 2.25 gear...","categories": [],
+        "tags": ["electrical","mechanical","motor","battery"],
+        "url": "http://localhost:4000/Electric-Longboard/",
         "teaser":null}]
