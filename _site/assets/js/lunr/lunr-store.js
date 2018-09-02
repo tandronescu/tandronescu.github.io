@@ -1,6 +1,6 @@
 var store = [{
         "title": "Survival Arcade Game",
-        "excerpt":"This project features a multi-level arcade game using Java on the Greenfoot platform. The use of gamestates allows for tracking of lives, asteroid/naval mine kills and shield usage. An intricate menu system was incorporated letting the user(s) pick between 1 and 2 player, navigate through instructions and see their score...","categories": [],
+        "excerpt":"Below are pictures of the many different elements of the game I created using Java on the Greenfoot platform. This game features various gamestates allowing for transitions between levels, tracking lives, keeping count of asteroid/naval mine kills and an end game screen. Furthermore, there is an abundance of different classes,...","categories": [],
         "tags": ["software","java","game","oop"],
         "url": "http://localhost:4000/Survival-Game/",
         "teaser":null},{

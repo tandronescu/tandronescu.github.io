@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-31T18:57:19-04:00</updated><id>http://localhost:4000/</id><title type="html">Tibi Andronescu</title><subtitle>Personal Website</subtitle><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><entry><title type="html">Electric Longboard</title><link href="http://localhost:4000/Electric-Longboard/" rel="alternate" type="text/html" title="Electric Longboard" /><published>2018-07-20T00:00:00-04:00</published><updated>2018-07-20T00:00:00-04:00</updated><id>http://localhost:4000/Electric-Longboard</id><content type="html" xml:base="http://localhost:4000/Electric-Longboard/">&lt;p&gt;After many hours of research, ordering parts, assembly and troubleshooting my electric longboard completed its first few trial runs as shown in the videos below.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-02T13:25:21-04:00</updated><id>http://localhost:4000/</id><title type="html">Tibi Andronescu</title><subtitle>Personal Website</subtitle><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><entry><title type="html">Electric Longboard</title><link href="http://localhost:4000/Electric-Longboard/" rel="alternate" type="text/html" title="Electric Longboard" /><published>2018-07-20T00:00:00-04:00</published><updated>2018-07-20T00:00:00-04:00</updated><id>http://localhost:4000/Electric-Longboard</id><content type="html" xml:base="http://localhost:4000/Electric-Longboard/">&lt;p&gt;After many hours of research, ordering parts, assembly and troubleshooting my electric longboard completed its first few trial runs as shown in the videos below.&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
 &lt;iframe src=&quot;https://drive.google.com/file/d/1Se2hRxlJoFCT2OBcwbA-a0FGnyRDdGKp/preview&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;
@@ -26,33 +26,33 @@
 &lt;img src=&quot;/images/Battery_Wire_Diagram.jpg&quot; alt=&quot;Battery Wire Diagram&quot; /&gt;
 &lt;img src=&quot;/images/Balance_Wire_Diagram.jpg&quot; alt=&quot;Balance Wire Diagram&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The two main choices for batteries are usually lithium-polymer (lipo) or lithium-ion (lion). Lion batteries are more prone to voltage sag (voltage drops quickly for a short period of time under heavy discharge, then goes back up to slightly less than where is was originally) so they are better in large packs where this effect can be mitigated. Lipo batteries are much better against voltage sag so smaller packs are feasible.&lt;/p&gt;
+&lt;p&gt;The two main choices for batteries are usually lithium-polymer (lipo) or lithium-ion (lion). Lion batteries are more prone to voltage sag (voltage drops quickly for a short period of time under heavy discharge, then goes back up to slightly less than where it was originally) so they are better in large packs where this effect can be mitigated. Lipo batteries are much better with regard to voltage sag so smaller packs are feasible.&lt;/p&gt;
 
 &lt;p&gt;The general rule of thumb is putting more batteries in series results in higher voltage and hence more power/torque and a higher top speed. Placing more batteries in parallel increases their capacity and hence the range of the board on one charge.&lt;/p&gt;
 
-&lt;p&gt;I bought 4 3S (3 cells in series, each cell being ~3.7V for a total of ~11.1V per pack) lipo batteries. This gave me some flexibility in terms of their arrangement. I could do 6S with 2 spare batteries, 6S2P (shorthand for 6 cells in series in parallel with another 6 cells in series), 9S with 1 spare battery or 12S.&lt;/p&gt;
+&lt;p&gt;I bought 4 3S (3 cells in series, each cell being ~3.7V for a total of ~11.1V per pack) lipo batteries. This gave me some flexibility in terms of their arrangement. I could pick 6S with 2 spare batteries, 6S2P (shorthand for 6 cells in series in parallel with another 6 cells in series), 9S with 1 spare battery or 12S.&lt;/p&gt;
 
 &lt;p&gt;I chose to go with a 6S2P configuration because I was aiming for more range and less power for this particular build: 
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/batteries.jpg&quot; alt=&quot;Lipo Batteries&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;On either side 2 of the battery packs were connected in series and their main leads plus their balance leads were both connected to a parallel charging board: 
+&lt;p&gt;Two sets of two battery packs were connected in series and their main and balance leads were both connected to a parallel charging board: 
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/parallel_board.jpg&quot; alt=&quot;Parallel Board&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;From the balance board, the output is split in parallel with one branch dedicated to the charger and one branch dedicated to powering the motor controller. Since the enclosure is screwed on, it is much easier if the batteries can be plugged into the charger while remaining inside the enclosure. The parallel branch can be pulled out a hole in the enclosure along with the balance leads to quickly plug into the charger stationed anywhere outside the board.&lt;/p&gt;
+&lt;p&gt;From the balance board, the output is split in parallel with one branch dedicated to the charger and one branch dedicated to powering the motor controller. Since the enclosure is screwed on, it is much easier if the batteries can be plugged into the charger while remaining inside the enclosure. One of the parallel branches from the outputcan be pulled out of an opening in the enclosure along with the balance leads to quickly plug into the charger stationed anywhere outside the board.&lt;/p&gt;
 
 &lt;p&gt;The other parallel branch powers the FOCBOX motor controller which is a motor controller specifically designed for electronic longboard applications and runs on the &lt;a href=&quot;http://vedder.se/&quot;&gt;open source firmware&lt;/a&gt; and GUI developed by Ben Vedder. 
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/vesc.jpg&quot; alt=&quot;Vesc&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;It has 2 modes of operation BLDC and FOC, I choose to use FOC because it is quieter and has smoother operation. The current limits for the battery and motor were adjusted appropriately for safe operation.&lt;/p&gt;
+&lt;p&gt;It has 2 modes of operation, BLDC and FOC, I choose to use FOC because it is quieter and has smoother operation. The current limits for the battery and motor were adjusted appropriately for safe and efficient operation.&lt;/p&gt;
 
-&lt;p&gt;An on-off mechanism was also necessary and it made the most sense to put it on this branch where it would be accessible from the side of the enclosure if holes were drilled. This way the board could easily be turned on for use and off when not in use to preserve battery. I used AS150 anti-spark connectors to reduce the amount of sparking when the circuit was turned on. The wire is soldered on the ends of the male and female connectors which are screwed into plastic housings.
+&lt;p&gt;An on-off mechanism was also necessary and it made the most sense to put it on this branch of the circuit where it could be accessible from the side of the enclosure if holes were drilled. This way the board could easily be turned on for use and off when not in use to preserve battery. I used AS150 anti-spark connectors to reduce the amount of sparking when the system was turned on. The wire is soldered on the ends of the male and female connectors which are screwed into plastic housings.
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/as150.jpg&quot; alt=&quot;AS150 Anti-Spark Connectors&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The motor controller then has 3 phase wires which connect directly to the 190KV Brushless Outrunner Motor. The bullet connectors from the motor controller and the motor phase wires did not match in size so I soldered together makeshift adapters using the 90 degree sections of multimeter test leads which created a tight seal while still allowing for easy detachment. On of my goals was to make this project as modular as possible to allow for upgrades and altercations in the future. 
+&lt;p&gt;The motor controller then has 3 phase wires which connect directly to the 190KV Brushless Outrunner Motor. The bullet connectors from the motor controller and the motor phase wires did not match in size so I soldered together makeshift adapters using 90 degree sections from multimeter test leads which created a tight seal while still allowing for easy detachment. One of my goals was to make this project as modular as possible to allow for upgrades and altercations in the future. 
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/phase_wires.jpg&quot; alt=&quot;Phase Wires&quot; /&gt;&lt;/p&gt;
 
@@ -60,7 +60,7 @@
 
 &lt;h2 id=&quot;drivetrain&quot;&gt;Drivetrain&lt;/h2&gt;
 
-&lt;p&gt;The drivetrain consists of a motor pulley, wheel pulley, drive belt and motor mount. The main objective of the drivetrain is to generate as much torque as possible because a lot of power is needed to move the combined weight of a human and longboard, especially when hills are involved. To achieve this a small gear is used attached to the motor (16 teeth) and a large gear is attached to one of the longboard wheels (36 teeth). 
+&lt;p&gt;The drivetrain consists of a motor pulley, wheel pulley, drive belt and motor mount. The main objective of the drivetrain is to generate as much torque as possible because a lot of power is needed to move the combined weight of a human and longboard, especially when hills are involved. Moreover, this is a single drive design meaning the wheel with the motor attached to it is providing all the power as the other 3 wheels will simply move in response once the longboard gets going. To achieve a high level of torque a small gear is attached to the motor (16 teeth) and a large gear is attached to one of the longboard wheels (36 teeth). 
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/pinion.jpg&quot; alt=&quot;Pinion Gear&quot; /&gt;&lt;/p&gt;
 
@@ -72,7 +72,7 @@
 
 &lt;p&gt;The last element to consider is how to keep all the electrical components under the deck and dampen the effects of vibration on them. Furthermore, an enclosure was needed to protect the electronics from water and various debris while riding the longboard.&lt;/p&gt;
 
-&lt;p&gt;I attached all the components directly to the deck using industrial strength velcro. The connection is very secure and the components can still be removed for inspection or changes.&lt;/p&gt;
+&lt;p&gt;I attached all the components directly to the deck using industrial strength velcro. The connection is very secure and the components can still be removed for inspection or changes, again attempting to have more modularity.&lt;/p&gt;
 
 &lt;p&gt;To attach the enclosure, I used threaded inserts installed directly into the wood longboard deck.
 &lt;br /&gt;&lt;br /&gt;
@@ -362,25 +362,37 @@ function myFunction() {
 
 &lt;h3 id=&quot;arduino---traffic-and-pedestrian-lights&quot;&gt;&lt;a href=&quot;https://create.arduino.cc/editor/TibSupreme/76d7f384-c75e-4f57-b561-04cca260d48a/preview&quot;&gt;Arduino - Traffic and Pedestrian Lights&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;A set of traffic and pedestrian lights controlled by a button. They work in unison with each other to ensure appropriate timing.&lt;/p&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="electrical" /><category term="c++" /><category term="circuits" /><summary type="html">There are several mini-projects listed below, the source code and additional information can be found by following their links to the online Arduino IDE</summary></entry><entry><title type="html">Survival Arcade Game</title><link href="http://localhost:4000/Survival-Game/" rel="alternate" type="text/html" title="Survival Arcade Game" /><published>2017-06-15T00:00:00-04:00</published><updated>2017-06-15T00:00:00-04:00</updated><id>http://localhost:4000/Survival-Game</id><content type="html" xml:base="http://localhost:4000/Survival-Game/">&lt;p&gt;This project features a multi-level arcade game using Java on the Greenfoot platform. The use of gamestates allows for tracking of lives, asteroid/naval mine kills and shield usage. An intricate menu system was incorporated letting the user(s) pick between 1 and 2 player, navigate through instructions and see their score at the end of the game.&lt;/p&gt;
-
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;Greenfoot project: SurvivalGame&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;SurvivalGame&lt;/h1&gt;
-        &lt;hr /&gt;
-        &lt;center&gt;
-        &amp;lt;applet code=&quot;greenfoot.export.GreenfootScenarioViewer.class&quot; 
-            width=1516 
-            height=919
-            archive=&quot;SurvivalGame.jar&quot;
-            alt=&quot;Your browser understands the &amp;lt;APPLET&amp;gt; tag but isn't running the applet, for some reason.&quot;
-         &amp;gt;
-            Your browser is ignoring the &amp;lt;APPLET&amp;gt; tag!      
-        &amp;lt;/applet&amp;gt;
-        &lt;hr /&gt;  
-        &lt;/center&gt;
-    &lt;/body&gt;
-&lt;/html&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="java" /><category term="game" /><category term="oop" /><summary type="html">This project features a multi-level arcade game using Java on the Greenfoot platform. The use of gamestates allows for tracking of lives, asteroid/naval mine kills and shield usage. An intricate menu system was incorporated letting the user(s) pick between 1 and 2 player, navigate through instructions and see their score at the end of the game.</summary></entry></feed>
+&lt;p&gt;A set of traffic and pedestrian lights controlled by a button. They work in unison with each other to ensure appropriate timing.&lt;/p&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="electrical" /><category term="c++" /><category term="circuits" /><summary type="html">There are several mini-projects listed below, the source code and additional information can be found by following their links to the online Arduino IDE</summary></entry><entry><title type="html">Survival Arcade Game</title><link href="http://localhost:4000/Survival-Game/" rel="alternate" type="text/html" title="Survival Arcade Game" /><published>2017-06-15T00:00:00-04:00</published><updated>2017-06-15T00:00:00-04:00</updated><id>http://localhost:4000/Survival-Game</id><content type="html" xml:base="http://localhost:4000/Survival-Game/">&lt;html&gt;
+&lt;head&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/style_game.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;main_style&quot;&gt;
+  &lt;p&gt; Below are pictures of the many different elements of the game I created using Java on the Greenfoot platform.
+      This game features various gamestates allowing for transitions between levels, tracking lives, keeping count of
+      asteroid/naval mine kills and an end game screen. Furthermore, there is an abundance of different classes, utilizing
+      the versatility of object-oriented programming. An applet version of the game is available below the pictures. 
+      Apologies if the applet does not run, many browsers have dropped applet support. Firefox, Safari and older Internet 
+      Explorer versions generally yields the best results. I have also included the gfar project file, which can be opened
+      with Greenfoot. &lt;/p&gt;
+  &lt;h3&gt; Below are some the different states in the game &lt;/h3&gt;
+  &lt;h3&gt; Instructions &lt;/h3&gt; 
+  &lt;img src=&quot;/images/greenfootInstructions.png&quot; alt=&quot;Instructions&quot; /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt; Asteroid Level &lt;/h3&gt; 
+  &lt;img src=&quot;/images/greenfootAsteroidLvl.png&quot; alt=&quot;Asteroid Level&quot; /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt; Shield &lt;/h3&gt;
+  &lt;img src=&quot;/images/greenfootShield.png&quot; alt=&quot;Shield&quot; /&gt; 
+  &lt;br /&gt;
+  &lt;h3&gt; Naval Level &lt;/h3&gt;
+  &lt;img src=&quot;/images/greenfootNavalLvl.png&quot; alt=&quot;Naval Level&quot; /&gt;
+  &lt;br /&gt;
+  &lt;h3&gt; Game Over Screen &lt;/h3&gt;
+  &lt;img src=&quot;/images/greenfootGameOver.png&quot; alt=&quot;Game Over&quot; /&gt;
+&lt;/div&gt;
+&lt;div id=&quot;extra&quot;&gt;
+  &lt;a href=&quot;SurvivalGame.gfar&quot; download=&quot;&quot;&gt;Download Game&lt;/a&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="software" /><category term="java" /><category term="game" /><category term="oop" /><summary type="html">Below are pictures of the many different elements of the game I created using Java on the Greenfoot platform. This game features various gamestates allowing for transitions between levels, tracking lives, keeping count of asteroid/naval mine kills and an end game screen. Furthermore, there is an abundance of different classes, utilizing the versatility of object-oriented programming. An applet version of the game is available below the pictures. Apologies if the applet does not run, many browsers have dropped applet support. Firefox, Safari and older Internet Explorer versions generally yields the best results. I have also included the gfar project file, which can be opened with Greenfoot. Below are some the different states in the game Instructions Asteroid Level Shield Naval Level Game Over Screen Download Game</summary></entry></feed>
