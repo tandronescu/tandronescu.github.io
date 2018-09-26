@@ -9,7 +9,7 @@ author_profile: true
 <link rel="stylesheet" type="text/css" href="/assets/css/projects.css">
 </head>
 
-Here are some of my personal favourite projects I have worked on organized by their respective engineering discipline. Projects are listed multiple times since they combine multiple disciplines. They are further categorized using tags below the table. More software projects are available on my github profile. 
+Here are some of my personal favourite projects I have worked on organized by their respective engineering discipline. Projects in grey are listed multiple times since they combine multiple disciplines. They are further categorized using tags below the table. More software projects are available on my github profile. 
 
 <table>
     <tr>

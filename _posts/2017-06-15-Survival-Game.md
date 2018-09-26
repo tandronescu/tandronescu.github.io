@@ -36,7 +36,7 @@ header:
   <img src="/images/greenfootGameOver.png" alt="Game Over">
 </div>
 <div id="extra">
-  <a href="SurvivalGame.gfar" download>Download Game</a>
+  <a href="/SurvivalGame.gfar/" download>Download Game</a>
 </div>
 </body>
 </html>
