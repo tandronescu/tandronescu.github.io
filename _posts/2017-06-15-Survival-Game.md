@@ -15,9 +15,7 @@ header:
   <p> Below are pictures of the many different elements of the game I created using Java on the Greenfoot platform.
       This game features various gamestates allowing for transitions between levels, tracking lives, keeping count of
       asteroid/naval mine kills and an end game screen. Furthermore, there is an abundance of different classes, utilizing
-      the versatility of object-oriented programming. An applet version of the game is available below the pictures. 
-      Apologies if the applet does not run, many browsers have dropped applet support. Firefox, Safari and older Internet 
-      Explorer versions generally yields the best results. I have also included the gfar project file, which can be opened
+      the versatility of object-oriented programming.  I have also included the gfar project file, which can be opened
       with Greenfoot. </p>
   <h3> Below are some the different states in the game </h3>
   <h3> Instructions </h3> 
