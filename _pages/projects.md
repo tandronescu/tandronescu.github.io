@@ -20,6 +20,8 @@ Here are some of my personal favourite projects I have worked on organized by th
     <tr>
         <td>
             <ul>
+                <li> <a href="/Communication-Base-Station/" class="project-link-duplicate"> Communication Base Station </a> </li>
+                <li> <a href="/Fantasy-Sport-Website/" class="project-link"> Fantasy Sport Website </a> </li>
                 <li> <a href="/Virtual-Cane/" class="project-link-duplicate"> Virtual White Cane </a> </li>
                 <li> <a href="/Username-Generator/" class="project-link"> Username Generator </a> </li>
                 <li> <a href="/Survival-Game/" class="project-link"> Survival Game </a> </li>
@@ -28,6 +30,7 @@ Here are some of my personal favourite projects I have worked on organized by th
         </td>
         <td>
             <ul>
+                <li> <a href="/Communication-Base-Station/" class="project-link-duplicate"> Communication Base Station </a> </li>
                 <li> <a href="/Electric-Longboard/" class="project-link-duplicate">Electric Longboard </a> </li>
                 <li> <a href="/Arduino-Projects/" class="project-link-duplicate"> Arduino Projects </a> </li>
                 <li> <a href="/Robot-Arm/" class="project-link-duplicate"> Mechanical Robot Arm </a> </li>
@@ -35,6 +38,7 @@ Here are some of my personal favourite projects I have worked on organized by th
         </td>
         <td>
             <ul>
+                <li> <a href="/Communication-Base-Station/" class="project-link-duplicate"> Communication Base Station </a> </li>
                 <li> <a href="/Electric-Longboard/" class="project-link-duplicate">Electric Longboard </a> </li>
                 <li> <a href="/Virtual-Cane/" class="project-link-duplicate"> Virtual White Cane </a> </li>
                 <li> <a href="/Robot-Arm/" class="project-link-duplicate"> Mechanical Robot Arm </a> </li>

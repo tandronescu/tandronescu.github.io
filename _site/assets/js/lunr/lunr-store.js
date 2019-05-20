@@ -28,4 +28,14 @@ var store = [{
         "excerpt":"After many hours of research, ordering parts, assembly and troubleshooting my electric longboard completed its first few trial runs as shown in the videos below. Key Points for Summary Top Speed: ~30km/h and Range: ~50km 6S2P Lithium Polymer Battery Configuration (~22.2V and 10Ah capacity) 190KV Brushless Outrunner Motor, 2.25 gear...","categories": [],
         "tags": ["electrical","mechanical","motor","battery"],
         "url": "http://localhost:4000/Electric-Longboard/",
+        "teaser":null},{
+        "title": "Communication Base Station",
+        "excerpt":"As part of the University of Waterloo Robotics Student Design Team, I undertook a project to construct a communication base station capable of tracking a moving rover robot and transmitting information via antenna to it. This was a multidisciplinary project combining aspects of mechanical, electrical and software engineering into one....","categories": [],
+        "tags": ["C++","ROS","Gazebo","RVIZ","SolidWorks","Arduino","Raspberry Pi","motor","controller","mechanical","electrical","software"],
+        "url": "http://localhost:4000/Communication-Base-Station/",
+        "teaser":null},{
+        "title": "Fantasy Sports Website",
+        "excerpt":"In the past, I often enjoyed holding annual competitions with my friend groups over choosing the correct score predictions for various sport events. Previously, I manually collected people’s guesses and had to keep score of everything by hand. Instead of this tedious process, I automated this hobby and spawned a...","categories": [],
+        "tags": ["website","PHP","SQL","DNS","WordPress"],
+        "url": "http://localhost:4000/Fantasy-Sport-Website/",
         "teaser":null}]
