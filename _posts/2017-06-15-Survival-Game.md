@@ -17,7 +17,7 @@ header:
       asteroid/naval mine kills and an end game screen. Furthermore, there is an abundance of different classes, utilizing
       the versatility of object-oriented programming.  I have also included the gfar project file, which can be opened
       with Greenfoot. </p>
-  <h3> Below are some the different states in the game </h3>
+  <h3> Some the different states in the game are shown below</h3>
   <h3> Instructions </h3> 
   <img src="/images/greenfootInstructions.png" alt="Instructions">
   <br/>

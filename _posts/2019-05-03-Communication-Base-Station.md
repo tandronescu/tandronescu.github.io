@@ -6,7 +6,7 @@ header:
     image:
 ---
 
-As part of the University of Waterloo Robotics Student Design Team, I undertook a project to construct a communication base station capable of tracking a moving rover robot and transmitting information via antenna to it. This was a multidisciplinary project combining aspects of mechanical, electrical and software engineering into one. 
+As part of the University of Waterloo Robotics Student Design Team, I undertook a project to construct a communication base station capable of tracking a moving rover robot and transmitting information to it via antenna. This was a multidisciplinary project combining aspects of mechanical, electrical and software engineering into one. 
 
 ## Mechanical 
 
@@ -27,7 +27,7 @@ In order to test and troubleshoot the logic, I imported the CAD model of the bas
 
 ## Electrical
 
-The final element of the project was to power the worm-gear system using a DC gear motor. Furthermore, the gear motor was controlled by an Arduino coupled with an H-Bridge intergrated circuit to be able to send specific commands to the motor based on the instructions being delivered from the tracking algorithm. The Arduino also had to communicate with a Raspberry Pi running a ROS Node which was done through a serial connection. Lastly, the entire system had to be powered which was done through a 12V lithium polymer battery. 
+The final element of the project was to power the worm-gear system using a DC gear motor. Furthermore, the gear motor was controlled by an Arduino coupled with an H-Bridge integrated circuit to be able to send specific commands to the motor based on the instructions being delivered from the tracking algorithm. The Arduino also had to communicate with a Raspberry Pi running a ROS Node which was done through a serial connection. Lastly, the entire system had to be powered which was done through a 12V lithium polymer battery. 
 
 
 

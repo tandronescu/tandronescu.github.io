@@ -27,14 +27,14 @@ In order to breakdown the components of this electric longboard into more detail
 
 ## Electrical
 
-The electrical components power the board and also allow for control of the motor in terms of accelerating and deacelerating. The overall wiring diagrams are shown below:
+The electrical components power the board and also allow for control of the motor in terms of accelerating and decelerating. The overall wiring diagrams are shown below:
 <br />
 ![Battery Wire Diagram](/images/Battery_Wire_Diagram.jpg)
 ![Balance Wire Diagram](/images/Balance_Wire_Diagram.jpg)
 
 The two main choices for batteries are usually lithium-polymer (lipo) or lithium-ion (lion). Lion batteries are more prone to voltage sag (voltage drops quickly for a short period of time under heavy discharge, then goes back up to slightly less than where it was originally) so they are better in large packs where this effect can be mitigated. Lipo batteries are much better with regard to voltage sag so smaller packs are feasible. 
 
-The general rule of thumb is putting more batteries in series results in higher voltage and hence more power/torque and a higher top speed. Placing more batteries in parallel increases their capacity and hence the range of the board on one charge. 
+The general rule of thumb is putting more batteries in series results in higher voltage and hence more power/torque and a higher top speed. Placing more batteries in parallel increases overall capacity and hence the range of the board on a singular charge. 
 
 I bought 4 3S (3 cells in series, each cell being ~3.7V for a total of ~11.1V per pack) lipo batteries. This gave me some flexibility in terms of their arrangement. I could pick 6S with 2 spare batteries, 6S2P (shorthand for 6 cells in series in parallel with another 6 cells in series), 9S with 1 spare battery or 12S. 
 
@@ -42,7 +42,7 @@ I chose to go with a 6S2P configuration because I was aiming for more range and 
 <br/><br/>
 ![Lipo Batteries](/images/batteries.jpg)
 
-Two sets of two battery packs were connected in series and their main and balance leads were both connected to a parallel charging board: 
+Two sets of two battery packs were connected in series and their main/balance leads were both connected to a parallel charging board: 
 <br/><br/>
 ![Parallel Board](/images/parallel_board.jpg)
 

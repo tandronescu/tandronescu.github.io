@@ -1,12 +1,12 @@
 ---
 title: Fantasy Sports Website
-date: 2019-05-07
-tags: [website, PHP, SQL, DNS, WordPress]
+date: 2019-04-07
+tags: [website, PHP, SQL, DNS, WordPress, software]
 header:
     image:
 ---
 
-In the past, I often enjoyed holding annual competitions with my friend groups over choosing the correct score predictions for various sport events. Previously, I manually collected people's guesses and had to keep score of everything by hand. Instead of this tedious process, I automated this hobby and spawned a website to organize this information. This served as an excellent means of hosting these annual tournaments. The website can be found at this url: [https://fantasykernel.com/](https://fantasykernel.com/)
+In the past, I often enjoyed holding annual competitions with my friend groups over choosing the correct score predictions for various sport events. Previously, I manually collected people's guesses and had to keep score of everything by hand. Instead of this tedious process, I automated this hobby and spawned a website to organize this information. This served as an excellent means of hosting these annual tournaments. The website can be found at this url (currently the DNS service is turned off until the next sporting playoff period begins): [https://fantasykernel.com/](https://fantasykernel.com/)
 
 Along the journey of creating this website, I learned many valuable skills that can be applied in both web development and other applications outside this realm. 
 
@@ -20,13 +20,13 @@ The next step was begin organizing the basic page structure of the website using
 <br /><br />
 ![Fantasky Kernel Register](/images/fantasy-kernel-register.png)
 
-In order to add the desired fantasy sport functionality, user information would have to stored in a database to save their scores and input. SQL was used to achieve this purpose, and the information in the SQL tables was used to filter content displayed to user's based on their registration status or points accumulated. Some highlights of the website will be illustrated below including a user score input system and the leaderboards showing the top-scoring players. 
+In order to add the desired fantasy sport functionality, user information would have to be stored in a database to save their scores and input. SQL was used to achieve this purpose, and the information in the SQL tables was used to filter website content displayed to user's based on their registration status or points accumulated. Some highlights of the website will be illustrated below including a user score input system and the leaderboard showing the top-scoring players. 
 <br /><br />
 ![Fantasky Kernel Score Input](/images/fantasy-kernel-submit-scores.png)
 <br /><br />
 ![Fantasky Kernel Leaderboard](/images/fantasy-kernel-leaderboards.png)
 
-Overall, this was a fun project automating a game originally played among my friend group into a full blown website. The first test run of the 2019 NBA Playoffs accumulated over 30 users and was a success. In the future, I certainly hope to grow the website, improve the functionality and expand to other sport events. 
+Overall, this was a fun project automating a game originally played among my friend group into a full-blown website. The first test run of the 2019 NBA Playoffs accumulated over 30 users and was a success. In the future, I certainly hope to grow the website, improve the functionality and expand to other sport events. 
 
 
 

@@ -32,7 +32,7 @@ header:
       user using 2 ultrasonic sensors
       and alerting them of incoming obstacles or changes in elevation with a sound notification. As the user
       gets closer to an obstacle, the frequency of beeps increases. The downward facing ultrasonic sensor
-      detects changes in elevation. A gyroscope sensor attached to a hardhat worn on the user's head allows
+      detects changes in elevation. A gyroscope sensor attached to a hard-hat worn on the user's head allows
       the system to rotate in unison with the user's head. This allows for checking in different directions
       for obstacles which is useful for turning or in busy areas. 
   </p>
