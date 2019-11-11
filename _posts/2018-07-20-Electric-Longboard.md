@@ -46,7 +46,7 @@ Two sets of two battery packs were connected in series and their main/balance le
 <br/><br/>
 ![Parallel Board](/images/parallel_board.jpg)
 
-From the balance board, the output is split in parallel with one branch dedicated to the charger and one branch dedicated to powering the motor controller. Since the enclosure is screwed on, it is much easier if the batteries can be plugged into the charger while remaining inside the enclosure. One of the parallel branches from the outputcan be pulled out of an opening in the enclosure along with the balance leads to quickly plug into the charger stationed anywhere outside the board. 
+From the balance board, the output is split in parallel with one branch dedicated to the charger and one branch dedicated to powering the motor controller. Since the enclosure is screwed on, it is much easier if the batteries can be plugged into the charger while remaining inside the enclosure. One of the parallel branches from the output can be pulled out of an opening in the enclosure along with the balance leads to quickly plug into the charger stationed anywhere outside the board. 
 
 The other parallel branch powers the FOCBOX motor controller which is a motor controller specifically designed for electronic longboard applications and runs on the [open source firmware](http://vedder.se/) and GUI developed by Ben Vedder. 
 <br/><br/>
@@ -62,7 +62,7 @@ The motor controller then has 3 phase wires which connect directly to the 190KV 
 <br/><br/>
 ![Phase Wires](/images/phase_wires.jpg)
 
-Finally a Nano-X transmitter/receiver pair are used to control the longboard once it is in operation. It can accelerate and decellerate using a throttle control. 
+Finally a Nano-X transmitter/receiver pair are used to control the longboard once it is in operation. It can accelerate and decelerate using a throttle control. 
 
 ## Drivetrain
 
