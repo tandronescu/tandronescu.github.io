@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-10T19:54:25-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tibi Andronescu</title><subtitle>Personal Website</subtitle><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><entry><title type="html">Communication Base Station</title><link href="http://localhost:4000/Communication-Base-Station/" rel="alternate" type="text/html" title="Communication Base Station" /><published>2019-05-03T00:00:00-04:00</published><updated>2019-05-03T00:00:00-04:00</updated><id>http://localhost:4000/Communication-Base-Station</id><content type="html" xml:base="http://localhost:4000/Communication-Base-Station/">&lt;p&gt;As part of the University of Waterloo Robotics Student Design Team, I undertook a project to construct a communication base station capable of tracking a moving rover robot and transmitting information to it via antenna. This was a multidisciplinary project combining aspects of mechanical, electrical and software engineering into one.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-07T09:47:14-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tibi Andronescu</title><subtitle>Personal Website</subtitle><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><entry><title type="html">Communication Base Station</title><link href="http://localhost:4000/Communication-Base-Station/" rel="alternate" type="text/html" title="Communication Base Station" /><published>2019-05-03T00:00:00-04:00</published><updated>2019-05-03T00:00:00-04:00</updated><id>http://localhost:4000/Communication-Base-Station</id><content type="html" xml:base="http://localhost:4000/Communication-Base-Station/">&lt;p&gt;As part of the University of Waterloo Robotics Student Design Team, I undertook a project to construct a communication base station capable of tracking a moving rover robot and transmitting information to it via antenna. This was a multidisciplinary project combining aspects of mechanical, electrical and software engineering into one.&lt;/p&gt;
 
 &lt;h2 id=&quot;mechanical&quot;&gt;Mechanical&lt;/h2&gt;
 
@@ -81,7 +81,9 @@
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/parallel_board.jpg&quot; alt=&quot;Parallel Board&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;From the balance board, the output is split in parallel with one branch dedicated to the charger and one branch dedicated to powering the motor controller. Since the enclosure is screwed on, it is much easier if the batteries can be plugged into the charger while remaining inside the enclosure. One of the parallel branches from the outputcan be pulled out of an opening in the enclosure along with the balance leads to quickly plug into the charger stationed anywhere outside the board.&lt;/p&gt;
+&lt;p&gt;From the balance board, the output is split in parallel with one branch dedicated to the charger and one branch dedicated to powering the motor controller. Since the enclosure is screwed on, it is much easier if the batteries can be plugged into the charger while remaining inside the enclosure. One of the parallel branches from the output can be pulled out of an opening in the enclosure along with the balance leads to quickly plug into the charger stationed anywhere outside the board. 
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/charging_port.jpg&quot; alt=&quot;Charging Port&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The other parallel branch powers the FOCBOX motor controller which is a motor controller specifically designed for electronic longboard applications and runs on the &lt;a href=&quot;http://vedder.se/&quot;&gt;open source firmware&lt;/a&gt; and GUI developed by Ben Vedder. 
 &lt;br /&gt;&lt;br /&gt;
@@ -93,11 +95,11 @@
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/as150.jpg&quot; alt=&quot;AS150 Anti-Spark Connectors&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The motor controller then has 3 phase wires which connect directly to the 190KV Brushless Outrunner Motor. The bullet connectors from the motor controller and the motor phase wires did not match in size so I soldered together makeshift adapters using 90 degree sections from multimeter test leads which created a tight seal while still allowing for easy detachment. One of my goals was to make this project as modular as possible to allow for upgrades and altercations in the future. 
+&lt;p&gt;The motor controller then has 3 phase wires which connect directly to the 190KV Brushless Outrunner Motor. The bullet connectors from the motor controller and the motor phase wires did not match in size so I soldered together adapters by putting 3mm bullet leads inside 5mm bullet leads which created a tight seal while still allowing for easy detachment. One of my goals was to make this project as modular as possible to allow for upgrades and altercations in the future. 
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/phase_wires.jpg&quot; alt=&quot;Phase Wires&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Finally a Nano-X transmitter/receiver pair are used to control the longboard once it is in operation. It can accelerate and decellerate using a throttle control.&lt;/p&gt;
+&lt;p&gt;Finally a Nano-X transmitter/receiver pair are used to control the longboard once it is in operation. It can accelerate and decelerate using a throttle control.&lt;/p&gt;
 
 &lt;h2 id=&quot;drivetrain&quot;&gt;Drivetrain&lt;/h2&gt;
 
@@ -119,7 +121,7 @@
 &lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/images/threaded_insert.jpg&quot; alt=&quot;Threaded Insert&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The enclosure has 6 holes drilled along its edges and screws are used to secure it to the deck.
+&lt;p&gt;The enclosure has 6 holes drilled along its edges and screws are used to secure it to the deck. A seal was also placed on the inside of the enclosure hugging the edges of the enclosure to create a watertight seal. 
 &lt;img src=&quot;/images/enclosure.jpg&quot; alt=&quot;Enclosure&quot; /&gt;&lt;/p&gt;</content><author><name>Tibi Andronescu</name><email>taandron@uwaterloo.ca</email></author><category term="electrical" /><category term="mechanical" /><category term="motor" /><category term="battery" /><summary type="html">After many hours of research, ordering parts, assembly and troubleshooting my electric longboard completed its first few trial runs as shown in the videos below.</summary></entry><entry><title type="html">Virtual White Cane</title><link href="http://localhost:4000/Virtual-Cane/" rel="alternate" type="text/html" title="Virtual White Cane" /><published>2017-12-02T00:00:00-05:00</published><updated>2017-12-02T00:00:00-05:00</updated><id>http://localhost:4000/Virtual-Cane</id><content type="html" xml:base="http://localhost:4000/Virtual-Cane/">&lt;html&gt;
 &lt;head&gt;
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/style_cane.css&quot; /&gt;

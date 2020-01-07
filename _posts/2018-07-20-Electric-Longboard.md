@@ -47,6 +47,8 @@ Two sets of two battery packs were connected in series and their main/balance le
 ![Parallel Board](/images/parallel_board.jpg)
 
 From the balance board, the output is split in parallel with one branch dedicated to the charger and one branch dedicated to powering the motor controller. Since the enclosure is screwed on, it is much easier if the batteries can be plugged into the charger while remaining inside the enclosure. One of the parallel branches from the output can be pulled out of an opening in the enclosure along with the balance leads to quickly plug into the charger stationed anywhere outside the board. 
+<br/><br/>
+![Charging Port](/images/charging_port.jpg)
 
 The other parallel branch powers the FOCBOX motor controller which is a motor controller specifically designed for electronic longboard applications and runs on the [open source firmware](http://vedder.se/) and GUI developed by Ben Vedder. 
 <br/><br/>
@@ -58,7 +60,7 @@ An on-off mechanism was also necessary and it made the most sense to put it on t
 <br/><br/>
 ![AS150 Anti-Spark Connectors](/images/as150.jpg)
 
-The motor controller then has 3 phase wires which connect directly to the 190KV Brushless Outrunner Motor. The bullet connectors from the motor controller and the motor phase wires did not match in size so I soldered together makeshift adapters using 90 degree sections from multimeter test leads which created a tight seal while still allowing for easy detachment. One of my goals was to make this project as modular as possible to allow for upgrades and altercations in the future. 
+The motor controller then has 3 phase wires which connect directly to the 190KV Brushless Outrunner Motor. The bullet connectors from the motor controller and the motor phase wires did not match in size so I soldered together adapters by putting 3mm bullet leads inside 5mm bullet leads which created a tight seal while still allowing for easy detachment. One of my goals was to make this project as modular as possible to allow for upgrades and altercations in the future. 
 <br/><br/>
 ![Phase Wires](/images/phase_wires.jpg)
 
@@ -84,7 +86,7 @@ To attach the enclosure, I used threaded inserts installed directly into the woo
 <br/><br/>
 ![Threaded Insert](/images/threaded_insert.jpg)
 
-The enclosure has 6 holes drilled along its edges and screws are used to secure it to the deck.
+The enclosure has 6 holes drilled along its edges and screws are used to secure it to the deck. A seal was also placed on the inside of the enclosure hugging the edges of the enclosure to create a watertight seal. 
 ![Enclosure](/images/enclosure.jpg)
 
 
