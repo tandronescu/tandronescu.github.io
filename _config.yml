@@ -101,8 +101,8 @@ analytics:
 # Site Author
 author:
   name             : "Tibi Andronescu"
-  avatar           : "/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "3B Mechatronics Engineering Student @ University of Waterloo"
+  avatar           : "/images/ProfilePic.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "4A Mechatronics Engineering Student @ University of Waterloo"
   location         : "Waterloo, Ontario"
   email            : "taandron@uwaterloo.ca"
   uri              :
