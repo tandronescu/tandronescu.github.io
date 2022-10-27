@@ -1,7 +1,7 @@
 ---
 title: Electric Longboard
 date: 2018-07-20
-tags: [electrical, mechanical, motor, battery]
+tags: [Electrical, Mechanical, Motor, Battery]
 header:
     image:
 ---
